@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gdpr Cookie\n"
+"Report-Msgid-Bugs-To: calinbehtuk@gmail.com\n"
+"POT-Creation-Date: 2018-04-02 14:16+0300\n"
+"PO-Revision-Date: 2018-04-02 14:23+0300\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: Puiu calin\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: index.php:34
+msgid "Gdpr Cookie"
+msgstr ""
+
+#: admin/help.php:15 admin/settings.php:15
+msgid "Help"
+msgstr ""
+
+#: admin/help.php:16 admin/settings.php:14 template/base.php:26
+msgid "Settings"
+msgstr ""
+
+#: admin/help.php:19
+msgid ""
+"This plugin has some basic option for google analytics,google adsense and "
+"other type of affiliate programs that will collect information about your "
+"users. If you want more extension for this plugin you can contact us to "
+"implement some extra option that will fit with your site, but this extra "
+"custom work will not be free."
+msgstr ""
+
+#: admin/help.php:22
+msgid ""
+"The plugin has minimal option that you can use to restrict what personal "
+"data you collect and to accept use of cookie. The user will have option to "
+"select from 3 options Google Analytics, Ads from adsense or other advertise "
+"if this ads colect information about visitors and a custom option that you "
+"can use for other type of data."
+msgstr ""
+
+#: admin/help.php:23
+msgid ""
+"Google Analytics, ads and custom option will be loaded only after user will "
+"accept this, if the accept is not provide this data will not be loaded."
+msgstr ""
+
+#: admin/help.php:24
+msgid ""
+"The site needs to have a privacy policy page where you will explain to users "
+"how the data is collected and how it stored, by you or by third-party."
+msgstr ""
+
+#: admin/help.php:27
+msgid ""
+"The widget for accepting cookie and set preferences will be display on "
+"bottom of the page on the first visit, if the user will agree the widget "
+"will be hidden. To display the options again you have to include in your "
+"theme a link  in you desired area. When the user will click on this link the "
+"widget with option will be displayed so the user can review the preferences."
+msgstr ""
+
+#: admin/help.php:30
+msgid "This function will display a link"
+msgstr ""
+
+#: admin/help.php:36
+msgid ""
+"If you want to implement this option in your theme on your buttons you can "
+"use this class. The class has to be in you div or link."
+msgstr ""
+
+#: admin/help.php:42
+msgid "For Google Analytics"
+msgstr ""
+
+#: admin/help.php:44
+msgid ""
+"Add the trakind in plugin settings and the script will be loaded after user "
+"will accept this option"
+msgstr ""
+
+#: admin/help.php:47
+msgid "For ads like Adsense or other type"
+msgstr ""
+
+#: admin/help.php:49
+msgid ""
+"You have to use a function to create a condition, and only if the user "
+"accept this option to display this content. All you code need to be inside "
+"this condition."
+msgstr ""
+
+#: admin/help.php:52 admin/help.php:70
+msgid "Function to use"
+msgstr ""
+
+#: admin/help.php:57 admin/help.php:74
+msgid "Example"
+msgstr ""
+
+#: admin/help.php:61 admin/help.php:78
+msgid "your code"
+msgstr ""
+
+#: admin/help.php:65 admin/settings.php:39
+msgid "Custom option"
+msgstr ""
+
+#: admin/help.php:67
+msgid ""
+"You can use this option for any other situation when you need to request "
+"user permission to store and share his data, you have option to add a custom "
+"name for this in settings. For this option your code need to be inside of "
+"this condition."
+msgstr ""
+
+#: admin/settings.php:21
+msgid ""
+"Choose what option you use on your site so user can choose what data will be "
+"allowed for collect."
+msgstr ""
+
+#: admin/settings.php:25
+msgid "You use on site"
+msgstr ""
+
+#: admin/settings.php:29
+msgid "Google analytics"
+msgstr ""
+
+#: admin/settings.php:34
+msgid "External services like advertising adsense or other"
+msgstr ""
+
+#: admin/settings.php:44
+msgid "Privacy Policy Page link"
+msgstr ""
+
+#: admin/settings.php:47
+msgid "Enter the link for your policy page"
+msgstr ""
+
+#: admin/settings.php:51
+msgid "Tracking ID"
+msgstr ""
+
+#: admin/settings.php:54
+msgid "Enter the tracking id for Google Analytics"
+msgstr ""
+
+#: admin/settings.php:58
+msgid "Custom text"
+msgstr ""
+
+#: admin/settings.php:61
+msgid "Enter the text for custom option"
+msgstr ""
+
+#: admin/settings.php:66
+msgid "Save changes"
+msgstr ""
+
+#: admin/settings.php:82
+msgid "Plugin settings updated correctly"
+msgstr ""
+
+#: ajax/ajax.php:26
+msgid "no action defined"
+msgstr ""
+
+#: include/functions.php:69
+msgid "Some error occurred, try again."
+msgstr ""
+
+#: include/functions.php:200
+msgid "Cookie settings"
+msgstr ""
+
+#: include/functions.php:240
+msgid "All rights reserved"
+msgstr ""
+
+#: include/functions.php:241
+msgid "Contact"
+msgstr ""
+
+#: template/base.php:16
+msgid ""
+"This site uses cookies and other tracking technologies to assist with "
+"navigation and your ability to provide feedback, analyse your use of our "
+"products and services, assist with our promotional and marketing efforts, "
+"and provide content from third parties."
+msgstr ""
+
+#: template/base.php:21
+msgid "Save"
+msgstr ""
+
+#: template/base.php:23
+msgid "Accept"
+msgstr ""
+
+#: template/base.php:30
+msgid "Privacy"
+msgstr ""
+
+#: template/base.php:34
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: template/base.php:45
+msgid "Allow Google Analytics"
+msgstr ""
+
+#: template/base.php:56
+msgid "Allow Advertising"
+msgstr ""
+
+#: template/base.php:68
+msgid "Custom"
+msgstr ""
+
+#: template/base.php:76
+msgid ""
+"By default the site will store cookies that are necessary for the site "
+"function and cannot be switched off in our systems. By visiting the site you "
+"are agree with this, and by enabling the above preferences you confirm that "
+"you read an understand what each preference from the above list means."
+msgstr ""

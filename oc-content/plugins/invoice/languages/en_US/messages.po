@@ -1,0 +1,974 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invoice Osclass Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 10:25+0100\n"
+"PO-Revision-Date: 2022-01-13 10:25+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:68 index.php:73 index.php:82
+#: index.php:130
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:44
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:51
+msgid "You cannot do this on demo site."
+msgstr ""
+
+#: admin/configure.php:55
+msgid "Electronical stamp image removed successfully."
+msgstr ""
+
+#: admin/configure.php:57
+#, php-format
+msgid "Unable to remove stamp image, please remove it manually at %s"
+msgstr ""
+
+#: admin/configure.php:78
+msgid "Connect Invoice Plugin"
+msgstr ""
+
+#: admin/configure.php:82
+msgid "Osclass Pay"
+msgstr ""
+
+#: admin/configure.php:83
+msgid "Payments Pro"
+msgstr ""
+
+#: admin/configure.php:84
+msgid "SMS Payments (Fortumo)"
+msgstr ""
+
+#: admin/configure.php:87
+msgid ""
+"You may connect Invoice Plugin to payment plugin in order to generate and "
+"mail invoices automatically."
+msgstr ""
+
+#: admin/configure.php:91
+msgid "Automatically Email Invoice"
+msgstr ""
+
+#: admin/configure.php:94
+msgid ""
+"When enabled and plugin is connected to any payment plugin, invoice is "
+"automatically sent to client when generated."
+msgstr ""
+
+#: admin/configure.php:98
+msgid "Default Currency"
+msgstr ""
+
+#: admin/configure.php:107
+msgid "Select default currency for payments."
+msgstr ""
+
+#: admin/configure.php:111
+msgid "Currency Position"
+msgstr ""
+
+#: admin/configure.php:114
+msgid "After price"
+msgstr ""
+
+#: admin/configure.php:115
+msgid "Before price"
+msgstr ""
+
+#: admin/configure.php:118
+msgid "Select position of currency in price."
+msgstr ""
+
+#: admin/configure.php:122
+msgid "Space in Price"
+msgstr ""
+
+#: admin/configure.php:125
+msgid "When enabled, white space is added between price and currency symbol."
+msgstr ""
+
+#: admin/configure.php:129
+msgid "Decimal Separator"
+msgstr ""
+
+#: admin/configure.php:132
+msgid "Default is point (.)"
+msgstr ""
+
+#: admin/configure.php:137
+msgid "Number of Decimals"
+msgstr ""
+
+#: admin/configure.php:139
+msgid "places"
+msgstr ""
+
+#: admin/configure.php:141
+msgid "Number of decimal places."
+msgstr ""
+
+#: admin/configure.php:146
+msgid "Thousands Separator"
+msgstr ""
+
+#: admin/configure.php:149
+msgid "Default is none"
+msgstr ""
+
+#: admin/configure.php:155
+msgid "Default Billing Information"
+msgstr ""
+
+#: admin/configure.php:158
+msgid ""
+"Default header (who is this invoice from?) that may be changed at invoice."
+msgstr ""
+
+#: admin/configure.php:163
+msgid "Default VAT"
+msgstr ""
+
+#: admin/configure.php:167
+msgid "Base tax that may be changed at invoice."
+msgstr ""
+
+#: admin/configure.php:171
+msgid "Default Notes"
+msgstr ""
+
+#: admin/configure.php:174
+msgid "Default invoice notes (shown on invoice at bottom)."
+msgstr ""
+
+#: admin/configure.php:178
+msgid "Default Terms & Conditions"
+msgstr ""
+
+#: admin/configure.php:181
+msgid "Default terms and conditions (shown on invoice at bottom)."
+msgstr ""
+
+#: admin/configure.php:185
+msgid "Invoice Order"
+msgstr ""
+
+#: admin/configure.php:188
+msgid ""
+"Default invoice order provided by your accountant. Enter number of order "
+"that will be used on next invoice. Will be put as invoice number. Example: "
+"Next order should have number 100, then 101, then 102, 103, ... put 100 as "
+"invoice order number. This number will be used on invoice name as well. "
+"Entry must be integer."
+msgstr ""
+
+#: admin/configure.php:192
+msgid "Electronical Stamp"
+msgstr ""
+
+#: admin/configure.php:197
+msgid "Remove stamp"
+msgstr ""
+
+#: admin/configure.php:200
+msgid ""
+"Upload your e-stamp (e-signature) that will be added to bottom right of "
+"invoice. This is used to sign invoice electronically. Supported image "
+"formats are png, jpg, jpeg. We recommend to use png image with transparent "
+"background of size about 240x60 px."
+msgstr ""
+
+#: admin/configure.php:204
+msgid "PDF Font"
+msgstr ""
+
+#: admin/configure.php:207
+msgid "FreeSans"
+msgstr ""
+
+#: admin/configure.php:208
+msgid "Helvetica"
+msgstr ""
+
+#: admin/configure.php:209
+msgid "Courier"
+msgstr ""
+
+#: admin/configure.php:212
+msgid ""
+"Font used to generate PDF. By default FreeSans is used that has most "
+"character support."
+msgstr ""
+
+#: admin/configure.php:216
+msgid "Business Profile Validation"
+msgstr ""
+
+#: admin/configure.php:219
+msgid ""
+"When enabled, business profile of user will have to be validated by admin."
+msgstr ""
+
+#: admin/configure.php:223
+msgid "Available Fields on Profile"
+msgstr ""
+
+#: admin/configure.php:227 admin/profile_edit.php:68 user/profile.php:114
+#: user/profile.php:131
+msgid "International VAT Number"
+msgstr ""
+
+#: admin/configure.php:228 admin/profile_edit.php:75 admin/profiles.php:71
+#: admin/profiles.php:108 user/profile.php:122 user/profile.php:131
+msgid "Local VAT Number"
+msgstr ""
+
+#: admin/configure.php:229 user/profile.php:130
+msgid "Invoice header"
+msgstr ""
+
+#: admin/configure.php:230 form/invoice.php:71 functions.php:608
+#: user/profile.php:138
+msgid "Shipping address"
+msgstr ""
+
+#: admin/configure.php:234
+msgid ""
+"Select fields those will be available in user billing profile. If no field "
+"is selected, all fields will be included in profile."
+msgstr ""
+
+#: admin/configure.php:235
+msgid "Use control key to select more than 1 value."
+msgstr ""
+
+#: admin/configure.php:244 admin/invoice.php:470 admin/invoice.php:481
+#: admin/invoice.php:535 admin/profile_edit.php:111
+msgid "This is demo site"
+msgstr ""
+
+#: admin/configure.php:244 admin/configure.php:246 admin/profile_edit.php:111
+#: admin/profile_edit.php:113 user/profile.php:145
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:256
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:261
+msgid "Plugin does not require any modifications in theme files."
+msgstr ""
+
+#: admin/invoice.php:11
+msgid "Edit Invoice"
+msgstr ""
+
+#: admin/invoice.php:11
+msgid "Create New Invoice"
+msgstr ""
+
+#: admin/invoice.php:23
+msgid "Invoice removed"
+msgstr ""
+
+#: admin/invoice.php:30
+msgid "Invoice re-opened"
+msgstr ""
+
+#: admin/invoice.php:37
+msgid "Invoice updated"
+msgstr ""
+
+#: admin/invoice.php:39
+msgid "Invoice created"
+msgstr ""
+
+#: admin/invoice.php:144
+msgid "Invoice PDF generated"
+msgstr ""
+
+#: admin/invoice.php:159
+#, php-format
+msgid "Invoice sent to %s"
+msgstr ""
+
+#: admin/invoice.php:173
+msgid "Invoice Details"
+msgstr ""
+
+#: admin/invoice.php:174 admin/invoice.php:188 admin/list.php:94
+#: admin/list.php:137 admin/report.php:26 admin/report.php:153
+msgid "Cancelled"
+msgstr ""
+
+#: admin/invoice.php:204
+msgid "Who is this invoice from?"
+msgstr ""
+
+#: admin/invoice.php:208 admin/list.php:63 form/invoice.php:65
+msgid "Bill to"
+msgstr ""
+
+#: admin/invoice.php:213
+msgid "Who is this invoice to?"
+msgstr ""
+
+#: admin/invoice.php:220 form/invoice.php:84 functions.php:249
+#: functions.php:345 functions.php:476 functions.php:650
+msgid "Invoice"
+msgstr ""
+
+#: admin/invoice.php:231 admin/report.php:140 form/invoice.php:97
+#: user/profile.php:49
+msgid "Date"
+msgstr ""
+
+#: admin/invoice.php:236 admin/report.php:141 form/invoice.php:103
+msgid "Due Date"
+msgstr ""
+
+#: admin/invoice.php:241 form/invoice.php:114
+msgid "Balance Due"
+msgstr ""
+
+#: admin/invoice.php:251 form/invoice.php:134
+msgid "Item"
+msgstr ""
+
+#: admin/invoice.php:252 admin/invoice.php:261 admin/invoice.php:284
+#: admin/invoice.php:306 form/invoice.php:135
+msgid "Quantity"
+msgstr ""
+
+#: admin/invoice.php:253 admin/invoice.php:265 admin/invoice.php:288
+#: admin/invoice.php:310 form/invoice.php:136
+msgid "Rate"
+msgstr ""
+
+#: admin/invoice.php:254 form/invoice.php:137 user/profile.php:51
+msgid "Amount"
+msgstr ""
+
+#: admin/invoice.php:260 admin/invoice.php:283 admin/invoice.php:305
+msgid "Description of service or product..."
+msgstr ""
+
+#: admin/invoice.php:327
+msgid "Add new line"
+msgstr ""
+
+#: admin/invoice.php:333 form/invoice.php:172
+msgid "Subtotal"
+msgstr ""
+
+#: admin/invoice.php:341 form/invoice.php:179
+msgid "Discounts"
+msgstr ""
+
+#: admin/invoice.php:345 admin/invoice.php:385
+msgid "Discount"
+msgstr ""
+
+#: admin/invoice.php:352 admin/invoice.php:356 admin/invoice.php:386
+#: form/invoice.php:187
+msgid "VAT"
+msgstr ""
+
+#: admin/invoice.php:363 admin/invoice.php:367 admin/invoice.php:387
+#: form/invoice.php:195
+msgid "Shipping"
+msgstr ""
+
+#: admin/invoice.php:374 admin/invoice.php:378 admin/invoice.php:388
+#: form/invoice.php:203
+msgid "Fee"
+msgstr ""
+
+#: admin/invoice.php:392 admin/list.php:110 form/invoice.php:210
+msgid "Total"
+msgstr ""
+
+#: admin/invoice.php:400 admin/invoice.php:404 form/invoice.php:216
+msgid "Amount Paid"
+msgstr ""
+
+#: admin/invoice.php:413 form/invoice.php:240
+msgid "Notes"
+msgstr ""
+
+#: admin/invoice.php:414
+msgid "Notes - any relevant information not already covered"
+msgstr ""
+
+#: admin/invoice.php:418 form/invoice.php:247
+msgid "Terms"
+msgstr ""
+
+#: admin/invoice.php:419
+msgid "Terms and conditions - late fees, payment methods, delivery schedule"
+msgstr ""
+
+#: admin/invoice.php:431
+msgid ""
+"This invoice has been cancelled, if you want to re-open it, please click on "
+"button bellow"
+msgstr ""
+
+#: admin/invoice.php:434
+msgid "Re-open Invoice"
+msgstr ""
+
+#: admin/invoice.php:443
+msgid "Currency"
+msgstr ""
+
+#: admin/invoice.php:454
+msgid "Osclass User"
+msgstr ""
+
+#: admin/invoice.php:456
+msgid "Type user name or email..."
+msgstr ""
+
+#: admin/invoice.php:460
+msgid "Private Comment"
+msgstr ""
+
+#: admin/invoice.php:461
+msgid "Private comment - put there your personal note to this invoice..."
+msgstr ""
+
+#: admin/invoice.php:470 admin/invoice.php:472 admin/invoice.php:535
+#: admin/invoice.php:537
+msgid "Update"
+msgstr ""
+
+#: admin/invoice.php:472 admin/invoice.php:537 admin/report.php:161
+#: index.php:85
+msgid "Create"
+msgstr ""
+
+#: admin/invoice.php:481 admin/invoice.php:483
+msgid "Generate PDF"
+msgstr ""
+
+#: admin/invoice.php:483
+msgid "Make sure to save changes before generating PDF"
+msgstr ""
+
+#: admin/invoice.php:487
+msgid "View PDF"
+msgstr ""
+
+#: admin/invoice.php:494
+msgid "Email Invoice"
+msgstr ""
+
+#: admin/invoice.php:495
+msgid "Send invoice to email"
+msgstr ""
+
+#: admin/invoice.php:498
+msgid "Make sure to save changes and generate PDF before mailing it"
+msgstr ""
+
+#: admin/invoice.php:498 admin/invoice.php:500
+msgid "Send"
+msgstr ""
+
+#: admin/invoice.php:500
+msgid "Please generate PDF first"
+msgstr ""
+
+#: admin/invoice.php:510
+msgid "This invoice was generated by payment plugin:"
+msgstr ""
+
+#: admin/invoice.php:528 admin/invoice.php:530 admin/list.php:148
+#: admin/list.php:154 admin/profiles.php:150 admin/profiles.php:152
+#: admin/report.php:201 admin/report.php:203
+msgid "Remove"
+msgstr ""
+
+#: admin/invoice.php:530 admin/list.php:154
+msgid "Remove invoice"
+msgstr ""
+
+#: admin/invoice.php:530 admin/list.php:154
+msgid "Are you sure you want to remove this invoice? Action cannot be undone."
+msgstr ""
+
+#: admin/invoice.php:547
+msgid "Please save changes first - click Update button"
+msgstr ""
+
+#: admin/invoice.php:548
+msgid "Error getting data, user not found"
+msgstr ""
+
+#: admin/list.php:3 admin/list.php:51
+msgid "Invoices List"
+msgstr ""
+
+#: admin/list.php:16
+msgid "Invoice has been successfully removed"
+msgstr ""
+
+#: admin/list.php:35
+msgid "Invoice has been successfully cancelled. Invoice PDF was removed"
+msgstr ""
+
+#: admin/list.php:58 admin/list.php:107
+msgid "Invoice ID"
+msgstr ""
+
+#: admin/list.php:68
+msgid "Inv. Date"
+msgstr ""
+
+#: admin/list.php:73
+msgid "Cust. Email"
+msgstr ""
+
+#: admin/list.php:78
+msgid "Min. Balance"
+msgstr ""
+
+#: admin/list.php:83
+msgid "Max. Balance"
+msgstr ""
+
+#: admin/list.php:88 admin/list.php:109 admin/profile_edit.php:96
+#: admin/profiles.php:86 admin/profiles.php:106 admin/report.php:147
+msgid "Status"
+msgstr ""
+
+#: admin/list.php:90 admin/profiles.php:88 admin/report.php:28
+msgid "All"
+msgstr ""
+
+#: admin/list.php:91 admin/list.php:128 admin/report.php:20
+#: admin/report.php:150
+msgid "In preparation"
+msgstr ""
+
+#: admin/list.php:92 admin/list.php:131 admin/report.php:22
+#: admin/report.php:151
+msgid "PDF generated"
+msgstr ""
+
+#: admin/list.php:93 admin/list.php:134 admin/report.php:24
+#: admin/report.php:152
+msgid "PDF sent to client"
+msgstr ""
+
+#: admin/list.php:100 admin/profiles.php:97
+msgid "Search"
+msgstr ""
+
+#: admin/list.php:108
+msgid "Who is this invoice to"
+msgstr ""
+
+#: admin/list.php:111 user/profile.php:52
+msgid "Balance"
+msgstr ""
+
+#: admin/list.php:117
+msgid "No invoices has been found"
+msgstr ""
+
+#: admin/list.php:145 admin/profiles.php:147
+msgid "Edit"
+msgstr ""
+
+#: admin/list.php:151
+msgid "Cancel invoice"
+msgstr ""
+
+#: admin/list.php:151
+msgid "Cancel"
+msgstr ""
+
+#: admin/profile_edit.php:3 admin/profiles.php:3 admin/report.php:3
+msgid "Reports"
+msgstr ""
+
+#: admin/profile_edit.php:23
+msgid "Billing profile has been successfully updated"
+msgstr ""
+
+#: admin/profile_edit.php:37
+msgid "Edit Business Profile"
+msgstr ""
+
+#: admin/profile_edit.php:47 admin/profiles.php:104 admin/report.php:176
+#: user/profile.php:47
+msgid "ID"
+msgstr ""
+
+#: admin/profile_edit.php:54
+msgid "Name"
+msgstr ""
+
+#: admin/profile_edit.php:61
+msgid "Email"
+msgstr ""
+
+#: admin/profile_edit.php:82 admin/profiles.php:76 admin/profiles.php:109
+msgid "Invoice Header"
+msgstr ""
+
+#: admin/profile_edit.php:89 admin/profiles.php:81 admin/profiles.php:110
+msgid "Shipping Address"
+msgstr ""
+
+#: admin/profile_edit.php:99 admin/profiles.php:89 functions.php:85
+msgid "Pending"
+msgstr ""
+
+#: admin/profile_edit.php:100 admin/profiles.php:90
+msgid "Approved"
+msgstr ""
+
+#: admin/profile_edit.php:101 admin/profiles.php:91 functions.php:89
+msgid "Rejected"
+msgstr ""
+
+#: admin/profiles.php:15
+msgid "User profile has been successfully removed"
+msgstr ""
+
+#: admin/profiles.php:23
+msgid "User profile has been successfully approved"
+msgstr ""
+
+#: admin/profiles.php:31
+msgid "User profile has been successfully rejected"
+msgstr ""
+
+#: admin/profiles.php:44
+msgid "Business Profiles List"
+msgstr ""
+
+#: admin/profiles.php:49
+msgid ""
+"Profiles validation is enabled. Only validated/approved profiles will be "
+"used on invoices."
+msgstr ""
+
+#: admin/profiles.php:56 admin/profiles.php:105
+msgid "User Name"
+msgstr ""
+
+#: admin/profiles.php:61
+msgid "User Email"
+msgstr ""
+
+#: admin/profiles.php:66 admin/profiles.php:107
+msgid "Int. VAT Number"
+msgstr ""
+
+#: admin/profiles.php:116
+msgid "No profiles has been found"
+msgstr ""
+
+#: admin/profiles.php:126
+msgid "Unknown/Removed user"
+msgstr ""
+
+#: admin/profiles.php:139
+msgid "Approve"
+msgstr ""
+
+#: admin/profiles.php:143
+msgid "Reject"
+msgstr ""
+
+#: admin/profiles.php:152
+msgid "Remove profile"
+msgstr ""
+
+#: admin/profiles.php:152
+msgid "Are you sure you want to remove this profile? Action cannot be undone."
+msgstr ""
+
+#: admin/report.php:77
+#, php-format
+msgid "Report created based on %s invoices"
+msgstr ""
+
+#: admin/report.php:80
+msgid "No invoices match your criteria"
+msgstr ""
+
+#: admin/report.php:96
+msgid "Report removed"
+msgstr ""
+
+#: admin/report.php:106
+msgid "Create new report"
+msgstr ""
+
+#: admin/report.php:111
+msgid ""
+"Folder oc-content/plugins/invoice/report/ is not writtable, report cannot be "
+"generated and saved!"
+msgstr ""
+
+#: admin/report.php:116
+msgid "Generate CSV with invoices that match criteria."
+msgstr ""
+
+#: admin/report.php:126
+msgid "Date Range"
+msgstr ""
+
+#: admin/report.php:127
+msgid "Start date"
+msgstr ""
+
+#: admin/report.php:131
+msgid "End date"
+msgstr ""
+
+#: admin/report.php:133
+msgid "Enter date range when invoices were created"
+msgstr ""
+
+#: admin/report.php:138
+msgid "Invoice date to filter on"
+msgstr ""
+
+#: admin/report.php:149
+msgid "All statues"
+msgstr ""
+
+#: admin/report.php:171
+msgid "Reports List"
+msgstr ""
+
+#: admin/report.php:177
+msgid "Report name"
+msgstr ""
+
+#: admin/report.php:178
+msgid "Generated date"
+msgstr ""
+
+#: admin/report.php:187
+msgid "No reports created yet"
+msgstr ""
+
+#: admin/report.php:197 user/profile.php:91
+msgid "Download"
+msgstr ""
+
+#: admin/report.php:203
+msgid "Remove report"
+msgstr ""
+
+#: admin/report.php:203
+msgid "Are you sure you want to remove this report? Action cannot be undone."
+msgstr ""
+
+#: functions.php:24
+msgid "Page:"
+msgstr ""
+
+#: functions.php:77 functions.php:93
+msgid "Valid"
+msgstr ""
+
+#: functions.php:78
+msgid "Validation is not required "
+msgstr ""
+
+#: functions.php:81
+msgid "N/A"
+msgstr ""
+
+#: functions.php:82
+msgid "Your billing profile has not been submitted yet"
+msgstr ""
+
+#: functions.php:86
+msgid "Your billing profile has not been validated yet"
+msgstr ""
+
+#: functions.php:90
+msgid ""
+"Your billing profile has been rejected as invalid. Contact us for more "
+"details and then submit your profile again."
+msgstr ""
+
+#: functions.php:94
+msgid "Your billing profile has been successfully validated"
+msgstr ""
+
+#: functions.php:176
+msgid "There was an error with image upload"
+msgstr ""
+
+#: functions.php:179
+msgid "Stamp is too big and was not uploaded. Maximum file size is:"
+msgstr ""
+
+#: functions.php:182
+msgid ""
+"Your image extension is not allowed, file was not uploaded. Only files with "
+"following extensions are allowed"
+msgstr ""
+
+#: functions.php:185
+msgid "An error with image upload has occurred, please try again."
+msgstr ""
+
+#: functions.php:266
+msgid "Source: SMS Payments (Fortumo)"
+msgstr ""
+
+#: functions.php:285
+msgid "Fortumo"
+msgstr ""
+
+#: functions.php:362
+msgid "Source: Payments Pro"
+msgstr ""
+
+#: functions.php:390 functions.php:404 functions.php:533 functions.php:546
+msgid "Service"
+msgstr ""
+
+#: functions.php:493
+msgid "Source: Osclass Pay"
+msgstr ""
+
+#: functions.php:638
+msgid "Client"
+msgstr ""
+
+#: index.php:28 index.php:29 user/profile.php:30
+msgid "My invoices"
+msgstr ""
+
+#: index.php:83 index.php:116 index.php:118 index.php:131
+msgid "Invoices"
+msgstr ""
+
+#: index.php:84 index.php:132
+msgid "Report"
+msgstr ""
+
+#: index.php:86 index.php:133
+msgid "Profiles"
+msgstr ""
+
+#: index.php:101
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:102
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:103
+msgid "Contact Us"
+msgstr ""
+
+#: user/profile.php:17
+msgid "Your billing profile has been successfully updated"
+msgstr ""
+
+#: user/profile.php:31
+msgid "Billing profile"
+msgstr ""
+
+#: user/profile.php:40
+#, php-format
+msgid "Note that here you will find only invoices issued by %s."
+msgstr ""
+
+#: user/profile.php:41
+msgid ""
+"If you ordered products from external sellers, please check your mailbox or "
+"contact seller directly to get invoice for your order."
+msgstr ""
+
+#: user/profile.php:48
+msgid "Header"
+msgstr ""
+
+#: user/profile.php:50
+msgid "Due date"
+msgstr ""
+
+#: user/profile.php:58
+msgid "No invoices found"
+msgstr ""
+
+#: user/profile.php:69
+msgid "Click to download invoice in PDF format"
+msgstr ""
+
+#: user/profile.php:72
+msgid "Invoice is not generated yet, please check in few days or contact us"
+msgstr ""
+
+#: user/profile.php:77
+msgid "This invoice has been cancelled, contact us for more details"
+msgstr ""
+
+#: user/profile.php:116
+msgid "International VAT number of your company"
+msgstr ""
+
+#: user/profile.php:124
+msgid "Local in-country VAT number of your company"
+msgstr ""
+
+#: user/profile.php:131
+msgid "Company name"
+msgstr ""
+
+#: user/profile.php:131
+msgid "Street / Address"
+msgstr ""
+
+#: user/profile.php:131
+msgid "ZIP"
+msgstr ""
+
+#: user/profile.php:131
+msgid "City"
+msgstr ""
+
+#: user/profile.php:132
+msgid ""
+"Will be used on invoice header instead of data from your user profile. Enter "
+"VAT number as well, even entered in above input(s). Keep blank to use "
+"default header."
+msgstr ""
+
+#: user/profile.php:140
+msgid ""
+"Will be added to invoice as your standard shipping address. Keep blank to "
+"not add extra shipping address to invoice."
+msgstr ""

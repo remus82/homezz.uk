@@ -1,0 +1,1 @@
+ALTER TABLE /*TABLE_PREFIX*/t_gdpr ADD COLUMN download_data LONGTEXT  NULL AFTER s_value;

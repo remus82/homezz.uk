@@ -1,0 +1,15 @@
+.gdpr_menu_link{float:right;font-size:18px;}
+.autor_calinbehtuk{display:block; margin:20px 0px;padding:10px; border:1px solid #000;background: #333;color:#fff;}
+.autor_calinbehtuk span{font-family: cursive;}
+.autor_calinbehtuk .p_ro{
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #0eb70e;
+    display:inline-block;
+    margin-right:10px;
+    float:left;
+}
+.autor_calinbehtuk .fb-like{float:right;background: #fff;padding:2px;width:300px;overflow: hidden;}
+.gdpr-cookie-settings h3{color: #00bed6;font-weight:700;}

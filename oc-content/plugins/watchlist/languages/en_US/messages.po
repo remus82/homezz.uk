@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: watchlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-05 11:40+0100\n"
+"PO-Revision-Date: 2014-11-05 11:40+0100\n"
+"Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax_watchlist.php:19 ajax_watchlist.php:24
+msgid "View your watchlist"
+msgstr ""
+
+#: ajax_watchlist.php:28
+msgid "Please login"
+msgstr ""
+
+#: help.php:28
+msgid "Watchlist Help"
+msgstr ""
+
+#: help.php:31
+msgid "What is Watchlist Plugin?"
+msgstr ""
+
+#: help.php:34
+msgid ""
+"Watchlist plugin allows you to display a link that will allow user to save "
+"items on a watchlist page"
+msgstr ""
+
+#: help.php:37
+msgid "How does Watchlist plugin work?"
+msgstr ""
+
+#: help.php:40
+msgid ""
+"In order to use Watchlist plugin, you should edit your theme files and add "
+"the following line anywhere in the code you want the Watchlist link to appear"
+msgstr ""
+
+#: help.php:46
+msgid "Could I cutomize the style of Watchlist plugin?"
+msgstr ""
+
+#: help.php:49
+msgid ""
+"Of course you can. Watchlist display a link only you can use css to make a "
+"button or anything else"
+msgstr ""
+
+#: help.php:52
+msgid "Did Watchlist plugin work with all version of OSClass?"
+msgstr ""
+
+#: help.php:55
+msgid ""
+"In order to work this pluggin need OSClass v2.2 and up without this version "
+"pluggin will crash"
+msgstr ""
+
+#: help.php:58
+#, php-format
+msgid "You have %s version"
+msgstr ""
+
+#: index.php:18
+msgid "Add to watchlist"
+msgstr ""
+
+#: index.php:23
+msgid "Watchlist"
+msgstr ""
+
+#: watchlist.php:31
+msgid "Your watchlist"
+msgstr ""
+
+#: watchlist.php:38
+msgid "You don't have any items yet"
+msgstr ""
+
+#: watchlist.php:67
+msgid ""
+"Are you sure you want to delete this listing? This action cannot be undone."
+msgstr ""
+
+#: watchlist.php:67
+msgid "Clear"
+msgstr ""
+
+#: watchlist.php:72
+msgid "see more details"
+msgstr ""
+
+#: watchlist.php:74
+msgid "and"
+msgstr ""
+
+#: watchlist.php:76
+msgid "photos"
+msgstr ""
+
+#: watchlist.php:76
+msgid "photo"
+msgstr ""

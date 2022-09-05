@@ -1,0 +1,83 @@
+.gdpr-export-user-options{}
+.gdpr-export-user-options .g-c-form{display:block;border:1px solid #ddd;border-radius:3px;margin-bottom:15px;background: #fff;padding: 17px 10px;}
+.g-c-form .gdpr-row{display: inline-block;
+width: 100%;
+margin-bottom: 10px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 10px;}
+.g-c-form .gdpr-option{width:80px;display:inline-block;float:left;}
+.g-c-form .exp-gdpr-button{padding:10px;border-radius:3px;cursor:pointer;}
+.g-c-form  .gdpr-label{display: inline-block;
+float: left;
+line-height: 25px;
+font-size: 15px;}
+.g-c-form .exp-gdpr-button{display:block;}
+.g-c-form .switch {
+    position: relative;float:left;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+.g-c-form .switch input {display:none;}
+
+.g-c-form .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.g-c-form .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.g-c-form input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.g-c-form input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.g-c-form input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+.g-c-form .slider.round {
+    border-radius: 24px;
+}
+
+.g-c-form .slider.round:before {
+    border-radius: 50%;
+}
+
+.gdpr-export-user-options .gdpr-file{margin:10px 0px;border:1px solid #eaeaea;display:inline-block;width:100%;
+  -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+.gdpr-export-user-options .gdpr-file .left-icon{background: #2196F3;float:left;
+width: 50px;margin-right:10px;
+display: inline-block;
+color: #fff;
+text-align: center;
+min-height: 35px;
+line-height: 35px;}
+.gdpr-export-user-options .gdpr-file .left-icon img{background: #fff; padding:5px;border:1px solid #ddd;margin-top:-4px;width:20px;}
+.gdpr-export-user-options .gdpr-file .archive-text{width:100%;}
+.gdpr-export-user-options .gdpr-file .t-align{padding-left:10px;line-height:35px;font-size:14px;}
+.gdpr-export-user-options .gdpr-file  .dt-date{float:right;padding-right:10px;}

@@ -1,0 +1,4 @@
+#back-top-right {position: fixed;bottom: 15px;right:0px; display:none;z-index:9999;}
+#back-top-right a {background:#fff;position:relative;color:#ccc;width: 50px;display: block;margin-right:15px;text-align: center;-webkit-transition: 0.3s;-moz-transition: 0.3s;transition: 0.3s;}
+#back-top-right span {padding:10px 0;font-size:28px;border:1px solid #ddd;width: 50px;height: 50px;display: block;-webkit-transition: 0.3s;-moz-transition: 0.3s;transition: 0.3s;box-shadow:0 0 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.1);}
+#back-top-right span:hover {color:#444;border:1px solid #ccc;background:#fdfdfd;}

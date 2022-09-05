@@ -1,0 +1,57 @@
+.inv-body {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-size:14px;line-height:18px;}
+.inv-body * {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.inv-prof {display:inline-block;clear:both;width:100%;margin:0;padding:10px 15px 15px 15px;border:1px solid #ddd;}
+.inv-prof .inv-inside {float:left;display:block;clear:both;width:100%;margin:0px 0 10px 0;border:1px solid rgba(0,0,0,0.08);box-shadow:2px 2px 10px rgba(0,0,0,0.05);border-radius:3px;padding:20px;background:#fff;}
+.inv-prof .inv-inside h2 {font-size:20px;margin:0 0 5px 0;}
+.inv-prof .inv-inside h3 {font-size:16px;margin:0 0 10px 0;}
+.inv-list {float:left;clear:both;width:100%;margin:20px 0;}
+.inv-notification {background: #fff; font-weight: 500; margin: 0 0 18px 0; padding: 12px 12px 12px 54px; border: 1px solid #ddd; border-radius: 3px; font-size: 14px; line-height: 18px; box-shadow: 0px 1px 3px rgb(0 0 0 / 20%); position: relative; }
+.inv-notification:before {position: absolute; width: 44px; height: calc(100% + 2px); left: -1px; top: -1px; z-index: 2; background: #6f8af0; border-radius: 3px 0 0 3px; content: "";}
+.inv-notification:after {position: absolute; width: 44px; height: 20px; line-height: 20px; left: -1px; top: calc(50% - 1px); margin-top: -10px; text-shadow: 0 1px 4px rgb(0 0 0 / 20%); z-index: 3; content: "\f05a"; font-size: 16px; font-weight: 900; font-family: "Font Awesome 5 Free", "FontAwesome"; text-align: center; color: rgba(255,255,255,0.85);}
+.inv-nav {float:left;clear:both;width:100%;margin:0 0 15px 0;border-bottom:3px solid #ddd;}
+.inv-nav a {transition:none;text-decoration:none;float:left;margin:0 6px -3px 0;border-bottom:3px solid transparent;padding:10px 10px;font-size:15px;line-height:18px;font-weight:normal;}
+.inv-nav a.active {font-weight:bold;}
+.inv-nav a.active, .inv-nav a:hover {border-bottom-color:#333;text-decoration:none;}
+.inv-tabs {float:left;clear:both;width:100%;}
+.inv-tab {float:left;clear:both;width:100%;}
+
+.inv-form, .inv-form form, .inv-form .inv-row, .inv-form .inv-row label, .inv-form .inv-help {float:left;clear:both;width:100%;}
+.inv-form {display:inline-block;width:100%;padding:5px 10px 10px 10px;}
+.inv-form .inv-row {margin:0 0 18px 0;}
+.inv-form .inv-row:last-child {margin:0;}
+.inv-form .inv-row label {margin:0 0 2px 0;font-weight:bold;font-size:14px;line-height:18px;}
+.inv-form .inv-row input[type="text"] {float:left;width:100%;max-width:320px;margin:0;font-size:14px;padding:8px;height:auto;line-height:18px;}
+.inv-form .inv-row textarea {float:left;width:100%;max-width:420px;margin:0;min-height:160px;max-height:280px;padding:8px;font-size:14px;line-height:18px;}
+.inv-form .inv-row .inv-help {margin:3px 0 0 0;font-size:12px;color:#888;line-height:14px;width:340px;max-width:100%;}
+.inv-form .inv-button {float:left;font-size:14px;padding:10px 25px;background:#444;border:none;line-height:16px;outline:none;box-shadow:none;font-weight:bold;margin:0;transition:0.1s;color:#fff;text-decoration:none;}
+.inv-form .inv-button:hover {background:#000;color:#fff;text-decoration:none;}
+.inv-form .inv-status {padding:15px 10px;text-align:center;margin:0 0 20px 0;background:#444;color:#fff;font-weight:bold;font-size:14px;line-height:18px;border-radius:4px;}
+.inv-form .inv-status.unavailable {background:#777;}
+.inv-form .inv-status.reject {background:#dc3633;}
+.inv-form .inv-status.success {background:#8bc72a;}
+  
+.inv-table-invoices {float:left;clear:both;width:100%;font-size:12px;overflow-x:auto;}
+.inv-table-invoices .inv-table-wrap {float:left;clear:both;width:100%;min-width:680px;}
+.inv-table-invoices .inv-col {float:left;padding:8px;}
+.inv-table-invoices .inv-head-row {display: inline-block; width: 100%; clear: both; border: none; font-weight: bold; vertical-align: top; border-bottom: solid 1px #a0d0eb; color: #444; font-size: 12px;}
+.inv-table-invoices .inv-row {display: block; width: 100%; clear: both; float: left; background: #FCFDFE; font-size: 12px; border-bottom: 1px solid #EAEDEF;min-height:34px;}
+.inv-table-invoices .inv-row:nth-child(odd) { background: #fff; }
+.inv-table-invoices .inv-row:hover { background: #f4f8fb; }
+.inv-row.inv-row-empty {text-align:center;padding:30px 25px 20px 25px;}
+.inv-row.inv-row-empty i {color: #dedede; display: block; clear: both; font-size: 80px; text-shadow: #fff 1px 1px 0;}
+.inv-row.inv-row-empty span {text-align: center; display: block; color: #999;font-size:14px;}
+.inv-col.id {width:12%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.inv-col.to {width:29%;}
+.inv-col.date {width:12%;color:#888;}
+.inv-col.duedate {width:12%;color:#888;}
+.inv-col.amount {width:10%;font-weight:bold;}
+.inv-col.balance {width:10%;}
+.inv-col.download {width:15%;padding-top:3px;padding-bottom:3px;}
+.inv-download-button {transition:0.15s;text-decoration:none;float:right;border-radius: 3px; background: #0d9ecc; font-size: 12px; font-weight:bold; padding: 4px 8px 2px 8px; color: #fff; border-bottom: 2px solid rgba(0,0,0,0.15); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: break-word; word-break: break-all;}
+.inv-download-button.inv-disabled, .inv-download-button.inv-disabled:hover {opacity:0.6;cursor:not-allowed;color:#fff;text-decoration:none;}
+.inv-download-button:not(.inv-disabled):hover {background:#0885ad;text-decoration:none;color:#fff;}
+.inv-download-button svg {float:left;width:auto;height:12px;margin:2px 4px 0 0;color:#fff;}
+
+@media screen and (max-width: 1024px) {
+  .inv-table-invoices .inv-table-wrap {min-width:720px;max-height:380px;}
+}

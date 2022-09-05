@@ -1,0 +1,17 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+
+DROP TABLE IF EXISTS /*TABLE_PREFIX*/t_invoice_user;
+CREATE TABLE /*TABLE_PREFIX*/t_invoice_user (
+  fk_i_user_id INT(11) NOT NULL,
+  s_vat_number VARCHAR(100) DEFAULT NULL,
+  s_vat_number_local VARCHAR(100) DEFAULT NULL,
+  i_vat_number_verified INT(3) DEFAULT NULL,
+  s_header VARCHAR(300) DEFAULT NULL,
+  s_ship_to VARCHAR(300) DEFAULT NULL,
+
+  PRIMARY KEY (fk_i_user_id)
+) ENGINE=InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+
+SET FOREIGN_KEY_CHECKS=1;

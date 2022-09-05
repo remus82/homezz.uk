@@ -1,0 +1,8 @@
+Ver. 1.0.2
+Download option finish
+Some extra option added to allow extra data in archive
+Some option added in use table to manage the data
+Ver. 1.0.1
+Some error issues fixed.
+Checkboxes check for multiple forms.
+Force user to save gdpr preferences.
